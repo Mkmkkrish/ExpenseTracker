@@ -3,6 +3,8 @@ import Balance from "./components/Balance";
 import TransactionList from "./components/TransactionList";
 import AddTransaction from "./components/AddTransaction";
 import "./App.css";
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+
 
 function App() {
   const [transactions, setTransactions] = useState([]);
